@@ -75,11 +75,13 @@ export function DeskGrid() {
             ))}
             <button
               onClick={addCard}
-              className="group min-h-[180px] rounded-2xl border border-dashed border-ink/15 hover:border-sage flex flex-col items-center justify-center gap-2 text-ink-muted hover:text-sage transition-colors cursor-pointer"
+              className="group min-h-[180px] rounded-2xl border-2 border-dashed border-ink/5 hover:border-sage/40 hover:bg-sage/[0.02] flex flex-col items-center justify-center gap-3 text-ink-muted/40 hover:text-sage transition-all cursor-pointer"
             >
-              <Plus className="size-5" strokeWidth={1.5} />
-              <span className="text-[10px] uppercase tracking-widest font-semibold">
-                Add card
+              <div className="size-10 rounded-full border border-dashed border-current flex items-center justify-center group-hover:scale-110 transition-transform">
+                <Plus className="size-5" strokeWidth={1.5} />
+              </div>
+              <span className="text-[10px] uppercase tracking-[0.2em] font-bold">
+                Place something on the desk
               </span>
             </button>
           </div>

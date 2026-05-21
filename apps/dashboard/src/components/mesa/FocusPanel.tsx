@@ -71,11 +71,11 @@ export function FocusPanel() {
   );
 
   return (
-    <section className="bg-card border border-border rounded-2xl p-6 shadow-sm h-full flex flex-col">
+    <section className="bg-[#fdfcfb] border border-[#e8e4e1] rounded-2xl p-6 shadow-[inset_0_1px_3px_rgba(0,0,0,0.02),0_1px_2px_rgba(0,0,0,0.05)] h-full flex flex-col">
       <div className="flex items-baseline justify-between mb-5">
-        <h2 className="font-serif text-lg font-medium">Today</h2>
-        <span className="text-[10px] uppercase tracking-widest text-ink-muted/60">
-          Now &middot; Later
+        <h2 className="font-serif text-lg font-medium text-ink/90">Today</h2>
+        <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-sage/80">
+          Clarity Lives Here
         </span>
       </div>
 
