@@ -1,8 +1,8 @@
-# Jot — A Quiet Desk for Your Mind
+# Jot: A Quiet Desk for Your Mind
 
-> **Continue where you stopped.**
+> Continue where you stopped.
 
-Jot is a calm, local-first personal workspace. It’s not about "doing more"—it's about feeling less scattered. It’s a thinking space designed to reduce cognitive load and provide emotional clarity.
+Jot is a calm, local-first personal workspace. It’s not about "doing more", it's about feeling less scattered. It’s a thinking space designed to reduce cognitive load and provide emotional clarity.
 
 ![Jot Demo](screenshot/demo.png)
 
@@ -52,13 +52,14 @@ Jot is built with a modern, high-performance stack:
 1. Clone the repository
 2. Install dependencies:
    ```bash
-   bun install
+   cd apps/dashboard
+   pnpm install
    ```
 3. Start the development server:
    ```bash
-   bun dev
+   pnpm dev
    ```
-4. Open [http://localhost:3000](http://localhost:3000)
+4. Open [http://localhost:8000](http://localhost:8000)
 
 ---
 
