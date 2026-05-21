@@ -1,176 +1,79 @@
-# Jot
+# Jot — A Quiet Desk for Your Mind
 
-> Continue where you stopped.
+> **Continue where you stopped.**
 
-Jot is a calm local-first workspace for organizing thoughts, projects, tasks, and everyday momentum without the noise of traditional productivity software.
+Jot is a calm, local-first personal workspace. It’s not about "doing more"—it's about feeling less scattered. It’s a thinking space designed to reduce cognitive load and provide emotional clarity.
 
-Built for people who feel mentally scattered by overly complicated tools.
-
-No accounts.
-No onboarding.
-No workspace setup.
-Just open the app and begin.
+![Jot Demo](screenshot/demo.png)
 
 ---
 
-## Philosophy
+## 🌿 The Philosophy
 
-Most productivity tools are designed around:
+Most productivity tools shout. Jot whispers.
 
-* teams,
-* notifications,
-* dashboards,
-* optimization,
-* and endless configuration.
-
-Jot is different.
-
-Jot is designed to feel like:
-
-* a quiet desk,
-* a thinking space,
-* a place to gently organize your mind.
-
-The goal is not to help you “do more.”
-
-The goal is to help you:
-
-* feel less overwhelmed,
-* regain clarity,
-* maintain momentum,
-* and continue where you stopped.
+Modern software often exhausts us with dashboards, notifications, and complex hierarchies. Jot is built to feel like a **physical desk**:
+- **Calmness**: Muted palettes, soft shadows, and generous spacing.
+- **Intentionality**: Focus on what matters *now* and what you need to *continue* later.
+- **Low Friction**: No accounts, no onboarding, no cloud. Just open and think.
+- **Trust**: Everything stays in your browser. Your thoughts are yours.
 
 ---
 
-## Features
+## ✨ Features
 
-### Local-First
-
-Everything is stored directly in your browser for:
-
-* instant speed,
-* privacy,
-* offline access,
-* and zero friction.
-
-No login required.
+- **Activity Cards**: Tactile, movable cards for projects, tasks, or ideas.
+- **Brain Dump**: A non-invasive capture bar for instant thoughts that live right on your desk.
+- **Focus Panel**: A "sacred" space for today’s clarity—Now and Later.
+- **Momentum Tracking**: Subtle visual cues highlight where you left off and which ideas have gone quiet.
+- **Local-First**: Built with Dexie (IndexedDB) for instant speed and total privacy.
 
 ---
 
-### Calm Dashboard
+## 🛠 Tech Stack
 
-A soft, distraction-free workspace built around:
+Jot is built with a modern, high-performance stack:
 
-* clarity,
-* spacing,
-* focus,
-* and low cognitive load.
-
----
-
-### Activity Cards
-
-Organize:
-
-* projects,
-* ideas,
-* tasks,
-* notes,
-* reminders,
-* workflows,
-* and goals.
-
-All through lightweight editable cards.
+- **Framework**: [TanStack Start](https://tanstack.com/start) (React 19)
+- **Routing**: [TanStack Router](https://tanstack.com/router)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) & [Framer Motion](https://www.framer.com/motion/)
+- **Database**: [Dexie.js](https://dexie.org/) (IndexedDB)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Drag & Drop**: [@dnd-kit](https://dnd-kit.com/)
 
 ---
 
-### Continue Where You Stopped
+## 🚀 Getting Started
 
-Jot remembers:
+### Prerequisites
+- [Bun](https://bun.sh/) (recommended) or Node.js
 
-* recently active work,
-* unfinished tasks,
-* and ongoing momentum.
-
-So you always know what to return to next.
-
----
-
-### Brain Dump
-
-Quickly capture thoughts without structure or pressure.
-
-Just jot it down.
-
----
-
-## Design Principles
-
-Jot is built around a few core ideas:
-
-* Calm over complexity
-* Clarity over features
-* Momentum over productivity pressure
-* Human-centered workflows
-* Soft and breathable interfaces
-* Instant interactions
-* Minimal setup
+### Setup
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   bun install
+   ```
+3. Start the development server:
+   ```bash
+   bun dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## Tech Stack
+## 🤝 Contributing
 
-* React / Next.js
-* TailwindCSS
-* Zustand
-* IndexedDB / Dexie
-* Framer Motion
-* dnd-kit
+We love contributors who care about **mental health, cognitive support, and calm design.**
 
----
+If you're an engineer who believes software should feel like a quiet environment, we'd love your help:
+- **Refine the "Feeling"**: Help us make interactions softer and more tactile.
+- **Cognitive Support**: Propose features that help users feel less overwhelmed.
+- **Performance**: Keep the "local-first" experience instant and light.
 
-## Roadmap
-
-Planned ideas for the future:
-
-* Workspace states
-* Gentle focus modes
-* Weekly reflection
-* Optional sync
-* Export / import
-* Mobile experience
-* PWA support
-* Themes
-* Keyboard-first workflow
-
-Jot will remain:
-
-* lightweight,
-* local-first,
-* and intentionally simple.
+Check out our [CHANGELOG.md](./CHANGELOG.md) to see where we've been and where we're going.
 
 ---
 
-## Open Source
-
-Jot is open source because thoughtful software should be:
-
-* collaborative,
-* transparent,
-* and community-shaped.
-
-Contributions, ideas, and feedback are welcome.
-
----
-
-## Vision
-
-Jot is not trying to become another bloated productivity suite.
-
-It’s an attempt to make software feel calm again.
-
----
-
-## License
-
-MIT License.
+## 📜 License
+MIT
