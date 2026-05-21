@@ -3,10 +3,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { seedIfEmpty } from "@/lib/db";
 import { todayLabel } from "@/lib/time";
-import { ContinueStrip } from "@/components/Jot/ContinueStrip";
-import { DeskGrid } from "@/components/Jot/DeskGrid";
-import { FocusPanel } from "@/components/Jot/FocusPanel";
-import { BrainDumpBar } from "@/components/Jot/BrainDumpBar";
+import { ContinueStrip } from "@/components/mesa/ContinueStrip";
+import { DeskGrid } from "@/components/mesa/DeskGrid";
+import { FocusPanel } from "@/components/mesa/FocusPanel";
+import { BrainDumpBar } from "@/components/mesa/BrainDumpBar";
 import deskStill from "@/assets/desk-still.jpg";
 
 export const Route = createFileRoute("/")({
