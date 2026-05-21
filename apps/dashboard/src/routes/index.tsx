@@ -7,6 +7,7 @@ import { ContinueStrip } from "@/components/mesa/ContinueStrip";
 import { DeskGrid } from "@/components/mesa/DeskGrid";
 import { FocusPanel } from "@/components/mesa/FocusPanel";
 import { BrainDumpBar } from "@/components/mesa/BrainDumpBar";
+import { ThoughtList } from "@/components/mesa/ThoughtList";
 import deskStill from "@/assets/desk-still.jpg";
 
 export const Route = createFileRoute("/")({
@@ -75,6 +76,7 @@ function Jot() {
               </span>
             </div>
             <DeskGrid />
+            <ThoughtList />
           </div>
 
           <aside className="order-1 lg:order-2 space-y-5">
