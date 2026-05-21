@@ -31,10 +31,10 @@ We believe that tools should adapt to the human mind, not the other way around. 
 
 1.  **Fork** the repository.
 2.  **Clone** your fork.
-3.  **Install** dependencies with `bun install`.
+3.  **Install** dependencies with `pnpm install`.
 4.  **Create a branch** for your changes.
 5.  **Make your changes** and ensure the code follows our style (Prettier & ESLint).
-6.  **Test** your changes.
+6.  **Test** your changes with `pnpm test`.
 7.  **Submit a Pull Request**.
 
 ## 🎨 Design Guidelines
