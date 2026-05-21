@@ -3,23 +3,23 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { seedIfEmpty } from "@/lib/db";
 import { todayLabel } from "@/lib/time";
-import { ContinueStrip } from "@/components/mesa/ContinueStrip";
-import { DeskGrid } from "@/components/mesa/DeskGrid";
-import { FocusPanel } from "@/components/mesa/FocusPanel";
-import { BrainDumpBar } from "@/components/mesa/BrainDumpBar";
+import { ContinueStrip } from "@/components/Jot/ContinueStrip";
+import { DeskGrid } from "@/components/Jot/DeskGrid";
+import { FocusPanel } from "@/components/Jot/FocusPanel";
+import { BrainDumpBar } from "@/components/Jot/BrainDumpBar";
 import deskStill from "@/assets/desk-still.jpg";
 
 export const Route = createFileRoute("/")({
-  component: Mesa,
+  component: Jot,
   head: () => ({
     meta: [
-      { title: "Mesa — A calm desk for your projects" },
+      { title: "Jot — A calm desk for your projects" },
       {
         name: "description",
         content:
-          "Mesa is a calm, local-first personal workspace. Movable cards, brain dump, and continue-where-you-stopped — no login, no team, no noise.",
+          "Jot is a calm, local-first personal workspace. Movable cards, brain dump, and continue-where-you-stopped — no login, no team, no noise.",
       },
-      { property: "og:title", content: "Mesa — A calm desk for your projects" },
+      { property: "og:title", content: "Jot — A calm desk for your projects" },
       {
         property: "og:description",
         content:
@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-function Mesa() {
+function Jot() {
   useEffect(() => {
     seedIfEmpty();
   }, []);
@@ -38,7 +38,7 @@ function Mesa() {
     <div className="min-h-screen bg-page text-ink">
       <header className="max-w-7xl mx-auto px-6 sm:px-8 pt-10 pb-8 flex items-end justify-between gap-6 flex-wrap">
         <div>
-          <h1 className="font-serif text-4xl font-medium tracking-tight">Mesa</h1>
+          <h1 className="font-serif text-4xl font-medium tracking-tight">Jot</h1>
           <p className="text-ink-muted text-xs sm:text-sm mt-1.5 uppercase tracking-[0.18em] font-medium">
             A quiet desk &middot; {todayLabel()}
           </p>
